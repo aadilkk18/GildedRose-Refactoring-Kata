@@ -3,6 +3,9 @@
 AGED_BRIE = "Aged Brie"
 SULFURAS = "Sulfuras, Hand of Ragnaros"
 BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
+# Assumption: the kata doesn't give one exact "Conjured X" item name, only the
+# category "Conjured items". We treat any item whose name starts with "Conjured"
+# as a conjured item, so new conjured items can be added later without code changes.
 CONJURED_PREFIX = "Conjured"
 
 MIN_QUALITY = 0
